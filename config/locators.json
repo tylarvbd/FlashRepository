@@ -1,0 +1,46 @@
+{
+  "login": {
+    "username": "[id='user-name']",
+    "password": "[id='password']",
+    "loginButton": "[id='login-button']",
+    "errorContainer": "[id='login_button_container']"
+  },
+  "inventory": {
+    "title": "[data-test='title']",
+    "sortDropdown": "[data-test='product-sort-container']",
+    "activeOption": "[data-test='active-option']",
+    "productName": "[data-test='inventory-item-name']",
+    "productDesc": "[data-test='inventory-item-desc']",
+    "productPrice": "[data-test='inventory-item-price']",
+    "inventoryList": "[data-test='inventory-list']",
+    "inventoryItem": ".inventory_item",
+    "addToCartButton": "button.btn_inventory",
+    "cartBadge": ".shopping_cart_badge",
+    "cartLink": "[data-test='shopping-cart-link']",
+    "burgerMenuButton": ".bm-burger-button",
+    "logoutLink": "[id='logout_sidebar_link']",
+    "allItemsLink": "[id='inventory_sidebar_link']"
+  },
+  "cart": {
+    "cartList": "[data-test='cart-list']",
+    "cartItem": ".cart_item",
+    "checkoutButton": "[id='checkout']",
+    "removeButtons": "[data-test^='remove-']"
+  },
+  "checkout": {
+    "firstName": "[id='first-name']",
+    "infoError": ".error-message-container",
+    "lastName": "[id='last-name']",
+    "postalCode": "[id='postal-code']",
+    "continueButton": ".submit-button",
+    "finishButton": "[id='finish']",
+    "cancelButton": "[id='cancel']",
+    "subtotalLabel": "[data-test='subtotal-label']",
+    "taxLabel": "[data-test='tax-label']",
+    "totalLabel": "[data-test='total-label']",
+    "completeHeader": ".header_secondary_container",
+    "completeText": ".complete-text",
+    "paymentInfoValue": "[data-test='payment-info-value']",
+    "shippingInfoValue": "[data-test='shipping-info-value']"
+  }
+}
