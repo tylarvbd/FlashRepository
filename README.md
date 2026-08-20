@@ -26,3 +26,5 @@ You never need to write or edit the generated spec files – they are temporary 
 After a test run, Playwright generates an HTML report.
 (npx playwright show-report)
 This opens a detailed report with screenshots, traces, and step‑by‑step execution for each test.
+
+You may find some more information about playwright-bdd over here - https://vitalets.github.io/playwright-bdd/#/getting-started/write-first-test?id=step-4-run-tests
