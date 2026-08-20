@@ -26,24 +26,3 @@ You never need to write or edit the generated spec files – they are temporary 
 After a test run, Playwright generates an HTML report.
 (npx playwright show-report)
 This opens a detailed report with screenshots, traces, and step‑by‑step execution for each test.
-
-
-🛠️ Project Structure
-text
-.
-├── config/
-│   ├── locators.json          # all CSS selectors
-│   └── test-data.json         # URLs, users, error messages, product data
-├── tests/
-│   ├── features/              # Gherkin .feature files
-│   │   ├── login.feature
-│   │   ├── sort.feature
-│   │   └── checkout.feature
-│   ├── steps/                 # step definitions (automation code)
-│   │   ├── login.steps.ts
-│   │   ├── sort.steps.ts
-│   │   └── checkout.steps.ts
-│   └── features-gen/          # AUTO‑GENERATED – do not edit
-├── playwright.config.ts       # Playwright + BDD configuration
-├── package.json
-└── README.md
